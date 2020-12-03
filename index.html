@@ -11,56 +11,87 @@
   <meta name="copyright" content="&lt;João Mendonça&gt;" />
   <meta name="robots" content="follow"/>
   <meta http-equiv="expires" content="43200"/>
-  <meta charset="utf-8">
+  
+  <canvas id="c" width="1920" height="1080"></canvas>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+  <script src="resources/scripts/scripts.js"></script>
 
 
-  <link rel="icon" href="resources/bigbird.gif" type="image/gif">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="resources/images/bigbird.gif" type="image/gif">
+  <link rel="stylesheet" href="resources/css/stylesheet.css">
   
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
-  <h1>Johnny Bigodes' Profile</h1>
-   <link rel="stylesheet" href="/css/style.css">
-   <p></p>
-  
+
+
+    <div id="container">
+
+  <div class="title-heading">
+  <header class="page-title"><h1>Johnny Bigodes' Profile</h1>
+    <div class="date">
+
   <script>
-    document.write("Last updated on: " + document.lastModified);
- alert("Hello my friend! I hate popup dialogs!");
+document.write("Last updated on: " + document.lastModified);
+  alert("Hello my friend! I hate popup dialogs!");
 </script>
-<hr>
-<img src="resources/bigbird.gif" height="100" width="100" alt="hairless bigbird"/> 
-  <ul>
-<li>Professional Former Child</li>
-<p><li>Ball Scratching Master</li></p>
-<p><li>Master of noone</li></p>
-<p><li>Chief Visionary</li></p>
-</ul>
-<table>
+<br>
+<br>
+    </div>
+</div>
+<hr class="border1">
+<br>
+<br>
+<div class="middle-section">
+<img src="resources/images/bigbird.gif" class="bird-image" alt="hairless bigbird"/> </header>
+<main>
+    <div class="list">
+  <dl>
+    <li>Professional Former Child</li>
+<li>Ball Scratching Master</li>
+<li>Master of None</li>
+<li>Chief Visionary</li>
+  </dl>
+</div>
+</div>
+<hr class= "border2">
+
+<table class= "link-table">
     <tr>
-        <th>LinkedIn</th>
-        <th>GitHub</th>
-        <th>HackerRank</th>
-        <th>LeetCode</th>
+        <th id="li-r">LinkedIn</th>
+        <th id="gh-r">GitHub</th>
+        <th id="hr-r">HackerRank</th>
+        <th id="lc-r">LeetCode</th>
+
 
     </tr>
     <tr>
         <td>
-            <a href="https://www.linkedin.com/in/joaommendonca1/" target="_blank">Here</a>
+            <button class="glow-on-hover" type="button"  alt="linkedin-logo" onclick="window.location.href='https://www.linkedin.com/in/joaommendonca1/';" >
+                <img src="resources/images/linkedin-logo.png" width="25px" height="25px">
+              </button>
         </td>
         <td>
-            <a href="https://github.com/gorthaur-source" target="_blank">Here</a>
+            <button class="glow-on-hover" type="button"  alt="linkedin-logo" onclick="window.location.href='https://github.com/gorthaur-source';" >
+                <img src="resources/images/github-logo.png" width="25px" height="25px">
+              </button>
         </td>
         <td>
-            <a href="https://www.hackerrank.com/polarity56" target="_blank">Here</a>
+            <button class="glow-on-hover" type="button"  alt="linkedin-logo" onclick="window.location.href='https://www.hackerrank.com/polarity56';" >
+                <img src="resources/images/hackerrank-logo.png" width="25px" height="25px">
+              </button>
         </td>
         <td>
-            <a href="https://leetcode.com/Gorthaur5/" target="_blank">Here</a>
+            <button class="glow-on-hover" type="button"  alt="linkedin-logo" onclick="window.location.href='https://leetcode.com/Gorthaur5/';" >
+                <img src="resources/images/leetcode-logo.png" width="25px" height="25px">
+              </button>
         </td>
 
     </tr>
 </table>
-                      
+
+</main>   
+    </div>   
+    
 </body>
 </html>
